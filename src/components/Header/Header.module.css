@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  width: 100px;
+  height: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menuBtn {
+  opacity: 50%;
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.sidebarContainer {
+  background-color: var(--Dark-Violet);
+  position: absolute;
+  top: 4rem;
+  width: calc(100% - 2rem);
+  left: 1rem;
+  border-radius: 10px;
+  padding: 2rem 1rem;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  border-bottom: 1px solid var(--Grayish-Violet);
+}
+
+.link {
+  text-align: center;
+  color: var(--White);
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.login {
+  background-color: transparent;
+}
+
+.signUp {
+  background-color: var(--Cyan);
+  border-radius: 50px;
+}
+
+.login,
+.signUp {
+  color: var(--White);
+  padding: 0.5rem 0;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
